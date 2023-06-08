@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <meta name="keywords" content="kod,kum,kuma,stampa,majice,print,po,zelji"/>
+        <meta name="description" content="Kod kuma je stamparija garderobe sa printom po Vasem ili nasem izboru" />
+        <title>KodKuma</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/icon.ico" />
+        <script src="https://kit.fontawesome.com/724ee7c4d3.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid nopadding">
+                <div class="col-12 nopadding">
+                    <nav id="navigation">
+                        <div class="brandTitle">KodKuma</div>
+                        <a href="#" class="toggleButton">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </a>
+                        <div class="navbarLinks">
+                            <ul id="menuList">
+                                <!-- dinmicki ispisan meni u jsu  -->
+                           </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container mt-5">
+                <div class="row">
+                    <img id="pictureSlider" src="img/slider_buckethat.jpg" class="d-block w-100" alt="buckethat">
+                </div>
+            </div>
+            <div class="container margin-top transform">
+                <div>
+                    <h1 class="h1caption font-weight-bold">Izdvojeni proizvodi</h1>
+                </div>
+                <div class="row mt-5" id="filteredArticals">
+                    <!--dinamicki ispisani istaknuti artikli -->
+                </div>
+            </div>
+            <div id="sales"class="container-fluid bg-color-gray mt-5">
+                <div class="row">
+                    <div class="col-12 mt-5 mb-5">
+                        <div id="border-sale" class="ml-sm-5">
+                            <h2 class="text-uppercase font-weight-bold">Akcije<span class="orange-color font-weight-bold">.</span></h2>
+                        </div>
+                        <p class="mt-5 color-dark-gray color-dark-gray-p font-weight-bold ml-sm-5">Pogledajte aktuelne pogodnosti i 
+                            popuste koje vam nudimo pri kupovini više različitih proizvoda. 
+                            Akcije se odnose isključivo na Shop kategoriju.</p>
+                    </div>
+                </div>
+            </div>
+            <!--Koristio sam inner css kako ne bih pravio 6 klasa za 6 razlicitih background slika-->
+            <div class="container-fluid nopadding">
+                <div id="indexSales" class="row nomargin">
+                    <!-- dinamicki ispisane akcije -->
+                </div>
+            </div>
+            <div class="container-fluid bg-color-black b-border-white">
+                <div class="row">
+                    <div class="col-12 col-md-4 mt-5 mb-5 d-flex flex-column article-offer">
+                        <div class="d-flex justify-content-around image-offer">
+                            <img src="img/materials.png" class="img-fluid" alt="materials">
+                        </div>
+                        <div>
+                            <h3 class="text-white text-center mt-3 mb-3 h3-offer font-weight-bold">Materijali</h3>
+                            <p class="text-white text-center p-offer">U ponudi je više vrsta materijala od kojih izrađujemo naše 
+                                proizvode</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5 mb-5 d-flex flex-column article-offer">
+                        <div class="d-flex justify-content-around image-offer">
+                            <img src="img/print.png" class="img-fluid" alt="print">
+                        </div>
+                        <div>
+                            <h3 class="text-white text-center mt-3 mb-3 h3-offer font-weight-bold">Štampa</h3>
+                            <p class="text-white text-center p-offer">Tehnike štampe koje primenjujemo na našoj garderobi</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mt-5 mb-5 d-flex flex-column article-offer">
+                        <div class="d-flex justify-content-around image-offer">
+                            <img src="img/delivery.png" class="img-fluid" alt="delivery">
+                        </div>
+                        <div>
+                            <h3 class="text-white text-center mt-3 mb-3 h3-offer font-weight-bold">Dostava</h3>
+                            <p class="text-white text-center p-offer">Brza i pouzdana kurirska dostava na vašu adresu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="container-fluid bg-color-black">
+                <div class="row">
+                    <div class="col-12 clearfix">
+                        <div  id="img-footer"class="text-center pt-5 pb-5">
+                            <a href="#"><img src="img/logo_white.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="pt-4 pb-4 left-float mt-md-4 pt-md-0 pb-md-0">
+                            <a class="text-white" href="https://www.facebook.com/Kod-Kuma-113468250333099/" target="blank"><i 
+                                class="fab fa-facebook-square link-hover-orange"></i></a>
+                            <a class="ml-2 text-white" href="https://www.instagram.com/kodkuma/" target="blank"><i class="fab 
+                                fa-instagram link-hover-orange"></i></a>
+                        </div>
+                        <div id="list-footer" class="left-float">
+                            <ul class="list-group list-group-flush list-group text-md-center mt-md-4">
+                                <li class="list-group-item"><a class="link-hover-orange" href="shop.html">KodKuma Shop</a></li>
+                                <li class="list-group-item"><a href="aboutus.html" class="link-hover-orange">Merch Shop</a></li>
+                                <li class="list-group-item"><a href="sales.html" class="link-hover-orange">Akcije</a></li>
+                                <li class="list-group-item"><a href="aboutus.html" class="link-hover-orange">Kako kupiti</a></li>
+                            </ul>
+                        </div>
+                        <div class="left-float text-md-right">
+                            <p class="mt-5 mt-md-4"><a class="link-hover-orange color-dark-gray"href="css/style.css">CSS 
+                                <i class="fab fa-css3"></i></a></p>
+                            <p><a class="link-hover-orange color-dark-gray"href="sitemap.xml">Sitemap <i class="fas fa-sitemap">
+
+                            </i></a></p>
+                            <p><a class="link-hover-orange color-dark-gray"href="documentacion.pdf" target="blank">Documentacion 
+                                <i class="fas fa-book"></i></a></p>
+                        </div>
+                        <div id="copyright">
+                            <p class="text-uppercase mt-5 color-dark-gray text-md-center">&#169 KodKuma/2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js" type="text/javascript"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    </body>
+</html>
